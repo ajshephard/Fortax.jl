@@ -9,7 +9,7 @@ The implementation uses immutable structs and `SVector` (from [StaticArrays.jl](
 From the Julia REPL, activate the project and install dependencies:
 ```julia
 using Pkg
-Pkg.activate("path/to/julia_version")
+Pkg.activate("path/to/Fortax.jl")
 Pkg.instantiate()
 ```
 
