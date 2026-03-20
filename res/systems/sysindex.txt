@@ -1,0 +1,12 @@
+sysindex.csv
+
+defines the system that operated from date0 to date1
+the first line gives the number of records
+it then proceeds in the form date0,date1,fname where
+both date0 and date1 are of the form YYYYMMDD
+fname should not contain the file extension or path
+
+warning: do not edit the .csv file in ms excel
+it may mess up the dates and fname
+
+AS

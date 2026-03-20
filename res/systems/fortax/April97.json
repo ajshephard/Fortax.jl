@@ -1,0 +1,342 @@
+{
+  "sysname": "April97",
+  "sysdesc": "TB system as at 4/1/1997",
+  "inctax": {
+    "numbands": 3,
+    "pa": 0.77788461538461505E+2,
+    "doPATaper": 0,
+    "disablePATaperRounding": 0,
+    "paTaperThresh": 0.0E+0,
+    "paTaperRate": 0.0E+0,
+    "doTPA": 0,
+    "maxTPA": 0.0E+0,
+    "mma": 0.35192307692307701E+2,
+    "ctc": 0.0E+0,
+    "ctcyng": 0.0E+0,
+    "mmarate": 0.14999999999999999E+0,
+    "ctctaper": 0.0E+0,
+    "c4rebate": 0.0E+0,
+    "bands": [
+      0.78846153846153797E+2,
+      0.50192307692307702E+3,
+      0.19230769230769201E+5
+    ],
+    "rates": [
+      0.20000000000000001E+0,
+      0.23000000000000001E+0,
+      0.40000000000000002E+0
+    ]
+  },
+  "natins": {
+    "numrates": 2,
+    "c4nrates": 3,
+    "c2floor": 0.66900000000000006E+2,
+    "c2rate": 0.60499999999999998E+1,
+    "ceiling": 0.465E+3,
+    "rates": [
+      0.2E-1,
+      0.10000000000000001E+0
+    ],
+    "bands": [
+      0.62E+2,
+      0.465E+3
+    ],
+    "c4rates": [
+      0.0E+0,
+      0.59999999999999998E-1,
+      0.0E+0
+    ],
+    "c4bands": [
+      0.13480000000000001E+3,
+      0.465E+3,
+      0.1E+7
+    ]
+  },
+  "chben": {
+    "doChBen": 1,
+    "basic": 0.9E+1,
+    "kid1xtr": 0.20499999999999998E+1,
+    "opf": 0.60499999999999998E+1,
+    "MatGrantVal": 0.1E+3,
+    "MatGrantOnlyFirstKid": 0,
+    "doTaper": 0,
+    "disableTaperRounding": 0,
+    "taperStart": 0.0E+0,
+    "taperRate": 0.0E+0,
+    "taperIsIncTax": 0
+  },
+  "fc": {
+    "dofamcred": 1,
+    "NumAgeRng": 4,
+    "MaxAgeCC": 11,
+    "WFTCMaxAgeCC": 11,
+    "adult": 0.47649999999999999E+2,
+    "ftprem": 0.10550000000000001E+2,
+    "hours1": 0.16E+2,
+    "hours2": 0.3E+2,
+    "thres": 0.77150000000000006E+2,
+    "taper": 0.69999999999999996E+0,
+    "MaintDisreg": 0.15E+2,
+    "MaxCC1": 0.6E+2,
+    "MaxCC2": 0.0E+0,
+    "WFTCMaxCC1": 0.0E+0,
+    "WFTCMaxCC2": 0.0E+0,
+    "WFTCPropCC": 0.1E+1,
+    "MinAmt": 0.5E+0,
+    "kidagel": [
+      0,
+      11,
+      16,
+      18
+    ],
+    "kidageu": [
+      10,
+      15,
+      17,
+      18
+    ],
+    "kidcred": [
+      0.12050000000000001E+2,
+      0.19949999999999999E+2,
+      0.24800000000000001E+2,
+      0.34700000000000003E+2
+    ]
+  },
+  "ctc": {
+    "fam": 0.0E+0,
+    "baby": 0.0E+0,
+    "kid": 0.0E+0,
+    "maxKids": 0
+  },
+  "wtc": {
+    "Basic": 0.0E+0,
+    "CouLP": 0.0E+0,
+    "FT": 0.0E+0,
+    "MinHrsKids": 0.0E+0,
+    "MinHrsCouKids": 0.0E+0,
+    "MinHrsNoKids": 0.0E+0,
+    "FTHrs": 0.0E+0,
+    "MinAgeKids": 0,
+    "MinAgeNoKids": 0,
+    "MaxCC1": 0.0E+0,
+    "MaxCC2": 0.0E+0,
+    "PropCC": 0.0E+0,
+    "MaxAgeCC": 0,
+    "NewDisreg": 0.0E+0,
+    "NewDisregCon": 0
+  },
+  "ntc": {
+    "donewtaxcred": 0,
+    "thr1lo": 0.0E+0,
+    "thr1hi": 0.0E+0,
+    "thr2": 0.0E+0,
+    "taper1": 0.0E+0,
+    "taper2": 0.0E+0,
+    "taperCTCInOneGo": 0,
+    "MinAmt": 0.0E+0
+  },
+  "cctaxrefund": {
+    "doCCTaxRefund": 0,
+    "MaxPerChild": 0.0E+0,
+    "MaxAge": 0,
+    "ReceiptProp": 0.0E+0,
+    "MinEarn": 0.0E+0,
+    "MaxInc": 0.0E+0
+  },
+  "incsup": {
+    "doIncSup": 1,
+    "IncChben": 1,
+    "NumAgeRng": 4,
+    "MinAgeMain": 18,
+    "MinAgeMainSin": 25,
+    "MainCou": 0.77150000000000006E+2,
+    "YngCou": 0.58700000000000003E+2,
+    "MainLP": 0.49149999999999999E+2,
+    "YngLP": 0.29600000000000001E+2,
+    "MainSin": 0.49149999999999999E+2,
+    "YngSin": 0.38899999999999999E+2,
+    "MinAgeFSM": 5,
+    "MaxAgeUniversalFSM": 0,
+    "ValFSM": 0.40999999999999996E+1,
+    "DisregLP": 0.15E+2,
+    "DisregSin": 0.5E+1,
+    "DisregCou": 0.1E+2,
+    "DisregShared": 1,
+    "PremFam": 0.10800000000000001E+2,
+    "PremLP": 0.49500000000000002E+1,
+    "hours": 0.16E+2,
+    "MaintDisreg": 0.0E+0,
+    "AgeRngl": [
+      0,
+      11,
+      16,
+      18
+    ],
+    "AgeRngu": [
+      10,
+      15,
+      17,
+      18
+    ],
+    "AddKid": [
+      0.16899999999999999E+2,
+      0.2475E+2,
+      0.29600000000000001E+2,
+      0.38899999999999999E+2
+    ]
+  },
+  "ctax": {
+    "docounciltax": 1,
+    "bandD": 0.13038461538461499E+2,
+    "SinDis": 0.25E+0,
+    "EnglandRatioA": 0.67000000000000004E+0,
+    "EnglandRatioB": 0.77000000000000002E+0,
+    "EnglandRatioC": 0.88E+0,
+    "EnglandRatioE": 0.122E+1,
+    "EnglandRatioF": 0.14399999999999999E+1,
+    "EnglandRatioG": 0.16699999999999999E+1,
+    "EnglandRatioH": 0.2E+1,
+    "EnglandRatioI": 0.2E+1,
+    "ScotlandRatioA": 0.67000000000000004E+0,
+    "ScotlandRatioB": 0.77000000000000002E+0,
+    "ScotlandRatioC": 0.88E+0,
+    "ScotlandRatioE": 0.122E+1,
+    "ScotlandRatioF": 0.14399999999999999E+1,
+    "ScotlandRatioG": 0.16699999999999999E+1,
+    "ScotlandRatioH": 0.2E+1,
+    "ScotlandRatioI": 0.2E+1,
+    "WalesRatioA": 0.67000000000000004E+0,
+    "WalesRatioB": 0.77000000000000002E+0,
+    "WalesRatioC": 0.88E+0,
+    "WalesRatioE": 0.122E+1,
+    "WalesRatioF": 0.14399999999999999E+1,
+    "WalesRatioG": 0.16699999999999999E+1,
+    "WalesRatioH": 0.2E+1,
+    "WalesRatioI": 0.2E+1
+  },
+  "rebatesys": {
+    "RulesUnderFC": 1,
+    "RulesUnderWFTC": 0,
+    "RulesUnderNTC": 0,
+    "RulesUnderUC": 0,
+    "NumAgeRng": 4,
+    "Restrict": 0,
+    "docap": 0,
+    "MinAgeMain": 18,
+    "MinAgeMainSin": 25,
+    "MainCou": 0.77150000000000006E+2,
+    "YngCou": 0.58700000000000003E+2,
+    "MainLP": 0.49149999999999999E+2,
+    "YngLP": 0.38899999999999999E+2,
+    "MainSin": 0.49149999999999999E+2,
+    "YngSin": 0.38899999999999999E+2,
+    "DisregSin": 0.5E+1,
+    "DisregLP": 0.25E+2,
+    "DisregCou": 0.1E+2,
+    "CredInDisregCC": 0,
+    "ChbenIsIncome": 1,
+    "PremFam": 0.10800000000000001E+2,
+    "PremLP": 0.1125E+2,
+    "MaintDisreg": 0.15E+2,
+    "MaxCC1": 0.6E+2,
+    "MaxCC2": 0.0E+0,
+    "MaxAgeCC": 11,
+    "AgeRngl": [
+      0,
+      11,
+      16,
+      18
+    ],
+    "AgeRngu": [
+      10,
+      15,
+      17,
+      18
+    ],
+    "AddKid": [
+      0.16899999999999999E+2,
+      0.2475E+2,
+      0.29600000000000001E+2,
+      0.38899999999999999E+2
+    ],
+    "MaxKids": 98
+  },
+  "hben": {
+    "doHBen": 1,
+    "taper": 0.65000000000000002E+0,
+    "MinAmt": 0.5E+0,
+    "doUnderOccCharge": 0,
+    "doUnderOccChargeScotland": 0,
+    "doUnderOccChargeNI": 0,
+    "numUnderOccBands": 0,
+    "underOccRates": [],
+    "doLHA": 0,
+    "LHASharedAccAge": 0,
+    "numLHABands": 0,
+    "LHARates": []
+  },
+  "ctaxben": {
+    "docounciltaxben": 1,
+    "taper": 0.20000000000000001E+0,
+    "doEntitlementCut": 0,
+    "entitlementShare": 0.0E+0
+  },
+  "ccben": {
+    "dopolltax": 0,
+    "taper": 0.14999999999999999E+0,
+    "PropElig": 0.80000000000000004E+0,
+    "MinAmt": 0.5E+0,
+    "CCrate": 0.0E+0
+  },
+  "uc": {
+    "doUnivCred": 0,
+    "MainCou": 0.0E+0,
+    "YngCou": 0.0E+0,
+    "MainSin": 0.0E+0,
+    "YngSin": 0.0E+0,
+    "MinAgeMain": 0,
+    "FirstKid": 0.0E+0,
+    "OtherKid": 0.0E+0,
+    "MaxKids": 0,
+    "MaxCC1": 0.0E+0,
+    "MaxCC2": 0.0E+0,
+    "PropCC": 0.0E+0,
+    "MaxAgeCC": 0,
+    "doRentCap": 0,
+    "DisregSinNoKidsHi": 0.0E+0,
+    "DisregSinNoKidsLo": 0.0E+0,
+    "DisregSinKidsHi": 0.0E+0,
+    "DisregSinKidsLo": 0.0E+0,
+    "DisregCouNoKidsHi": 0.0E+0,
+    "DisregCouNoKidsLo": 0.0E+0,
+    "DisregCouKidsHi": 0.0E+0,
+    "DisregCouKidsLo": 0.0E+0,
+    "taper": 0.0E+0,
+    "MinAmt": 0.0E+0
+  },
+  "statepen": {
+    "doStatePen": 0,
+    "PenAgeMan": 65,
+    "PenAgeWoman": 60
+  },
+  "bencap": {
+    "doCap": 0,
+    "doNI": 0,
+    "doThruUC": 0,
+    "sinNoKids": 0.1E+101,
+    "sinKids": 0.1E+101,
+    "couNoKids": 0.1E+101,
+    "couKids": 0.1E+101,
+    "LondonCapAmt": 0,
+    "LondonSinNoKids": 0.99999E+5,
+    "LondonSinKids": 0.99999E+5,
+    "LondonCouNoKids": 0.99999E+5,
+    "LondonCouKids": 0.99999E+5,
+    "UCEarnThr": 0.0E+0
+  },
+  "extra": {
+    "fsminappamt": 0,
+    "matgrant": 0,
+    "prices": 19970401
+  }
+}
