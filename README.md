@@ -1,6 +1,6 @@
 # Fortax.jl — Pure Julia UK Tax-Benefit Microsimulation
 
-Fortax.jl is a pure Julia reimplementation of the [FORTAX](../README.md) Fortran library for calculating accurate budget constraints based upon the rules of the actual UK tax and benefit system. It has been used in a number of research papers (see [`FortaxPapers.md`](../FortaxPapers.md)).
+Fortax.jl is a pure Julia reimplementation of the [FORTAX](https://github.com/ajshephard/fortax-library) Fortran library for calculating accurate budget constraints based upon the rules of the actual UK tax and benefit system.
 
 The implementation uses immutable structs and `SVector` (from [StaticArrays.jl](https://github.com/JuliaArrays/StaticArrays.jl)) for high performance comparable to the Fortran version. Tax system files are read using [JSON3.jl](https://github.com/quinnj/JSON3.jl).
 
